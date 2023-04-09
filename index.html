@@ -4,10 +4,59 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Kate - ein  Stadt Land Fluss Kategorien Generator"
+    />
     <title>Kate</title>
   </head>
   <body>
-    <header></header>
-    <footer></footer>
+    <header class="container">
+      <h1>Kate - Stadt Land Fluss Kategorien Generator</h1>
+    </header>
+    <main>
+      <section>
+        <div>
+          <span>Anzahl zufälliger Kategorien:</span>
+          <input
+            type="number"
+            id="category-amount"
+            value="5"
+            min="1"
+            max="10"
+          />
+        </div>
+        <div>
+          <button>Zufällige Kategorien generieren</button>
+        </div>
+      </section>
+      <section>
+        <div class="error">
+          <h2>
+            The error should be here (like not a valid number or too high of a
+            number)
+          </h2>
+          <p>And here a description</p>
+        </div>
+      </section>
+    </main>
+    <footer class="container">
+      Made with <span class="footer-heart">♥</span> by
+      <a href="https://github.com/sopvia">
+        <img
+          class="footer-avatar"
+          src="https://avatars.githubusercontent.com/u/112272251?v=4"
+          alt="sopvia profile picture"
+        />
+      </a>
+      &
+      <a href="https://github.com/xnacly">
+        <img
+          class="footer-avatar"
+          src="https://avatars.githubusercontent.com/u/47723417?v=4"
+          alt="xnacly profile picture"
+        />
+      </a>
+    </footer>
   </body>
 </html>
